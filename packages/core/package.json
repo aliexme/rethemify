@@ -1,0 +1,11 @@
+{
+  "name": "@rethemify/core",
+  "version": "0.0.0",
+  "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
+  "homepage": "https://github.com/aliexme/rethemify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliexme/rethemify.git"
+  },
+  "license": "MIT"
+}
