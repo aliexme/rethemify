@@ -1,7 +1,26 @@
 {
   "name": "rethemify",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliexme/rethemify.git"
+  },
+  "scripts": {
+    "ts:check": "yarn lerna run ts:check",
+    "lint:check": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore ./ --cache",
+    "lint:fix": "yarn lint:check --fix"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
   "devDependencies": {
-    "lerna": "^5.1.8"
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "eslint-plugin-import": "^2.26.0",
+    "lerna": "^5.1.8",
+    "nx": "^14.4.3",
+    "typescript": "^4.7.4"
   }
 }

@@ -1,0 +1,24 @@
+# Editor
+.idea
+
+# Node.js
+node_modules
+yarn-error.log
+
+# Lerna
+lerna-debug.log
+
+# Build
+lib
+*.js
+*.js.map
+*.d.ts
+*.tgz
+
+# Tests
+coverage
+!jest.config.js
+
+# ESLint
+!.eslintrc.js
+.eslintcache
