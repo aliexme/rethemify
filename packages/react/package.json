@@ -1,0 +1,27 @@
+{
+  "name": "@rethemify/react",
+  "version": "0.0.0",
+  "private": false,
+  "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
+  "homepage": "https://github.com/aliexme/rethemify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliexme/rethemify.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.build.json",
+    "ts:check": "tsc --noEmit -p ./tsconfig.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@rethemify/core": "^0.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
