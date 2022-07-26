@@ -1,1 +1,1 @@
-export const empty = ''
+export { createTheme, type Theme } from './theme'
