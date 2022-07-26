@@ -13,13 +13,12 @@
   "typings": "index.d.ts",
   "scripts": {
     "build": "tsc -p ./tsconfig.build.json",
-    "ts:check": "tsc --noEmit -p ./tsconfig.json",
-    "lint:check": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path ../../.gitignore ./ --cache",
-    "lint:fix": "yarn lint:check --fix"
+    "ts:check": "tsc --noEmit -p ./tsconfig.json"
   },
   "publishConfig": {
     "access": "public"
   },
+  "dependencies": {},
   "devDependencies": {
     "typescript": "^4.7.4"
   }

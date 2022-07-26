@@ -1,1 +1,1 @@
-export { createTheme, type Theme } from './theme'
+export { createTheme, type Theme, type IThemeCustom } from './theme'
