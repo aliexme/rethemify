@@ -53,6 +53,7 @@ module.exports = {
     "import/first": "error",
     "import/newline-after-import": "error",
     "import/namespace": "off",
+    "import/no-unresolved": "off",
     "jsx-quotes": ["error", "prefer-single"],
   },
   "overrides": [
