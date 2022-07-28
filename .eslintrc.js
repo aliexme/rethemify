@@ -73,12 +73,10 @@ module.exports = {
           "multiline": { "delimiter": "none" },
           "singleline": { "delimiter": "comma" },
         }],
-        "@typescript-eslint/no-empty-interface": ["error", {
-          "allowSingleExtends": true,
-        }],
         "@typescript-eslint/consistent-type-imports": ["error", { "prefer": "type-imports" }],
         "@typescript-eslint/no-shadow": ["error"],
         "@typescript-eslint/type-annotation-spacing": "error",
+        "@typescript-eslint/no-empty-interface": "off",
       },
     },
   ],

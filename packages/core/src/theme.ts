@@ -1,15 +1,20 @@
-interface ITheme {
+import { createThemePalette, type ThemePalette } from './palette'
+
+interface ThemeBase {
   name?: string
+  palette: ThemePalette
 }
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
-export interface IThemeCustom {}
+export interface ThemeCustom {}
 
-export interface Theme extends IThemeCustom, Omit<ITheme, keyof IThemeCustom> {}
+export interface Theme extends ThemeCustom, Omit<ThemeBase, keyof ThemeCustom> {}
 
-export const createTheme = (theme?: Partial<Theme>): Theme => {
+export interface ThemeOptions extends Partial<Theme> {}
+
+export const createTheme = (themeOptions?: ThemeOptions): Theme => {
   return {
     name: 'default',
-    ...theme,
+    palette: createThemePalette(),
+    ...themeOptions,
   }
 }
