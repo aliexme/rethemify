@@ -1,3 +1,5 @@
+import { omitUndefinedObjectValues } from '@aliexme/js-common-utils/object/omitUndefinedObjectValues'
+
 import { createThemePalette, type ThemePalette } from './palette'
 
 interface ThemeBase {
@@ -13,11 +15,11 @@ export interface Theme extends ThemeCustom, Omit<ThemeBase, Exclude<keyof ThemeC
 
 export interface ThemeOptions extends Partial<Theme> {}
 
-export const createTheme = (themeOptions?: ThemeOptions): Theme => {
+export const createTheme = (themeOptions: ThemeOptions = {}): Theme => {
   return {
     name: 'default',
     palette: createThemePalette(),
-    ...themeOptions,
+    ...omitUndefinedObjectValues(themeOptions),
     select(specifics) {
       return specifics[this.name] ?? specifics.default
     },

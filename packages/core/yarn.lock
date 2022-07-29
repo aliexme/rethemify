@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@aliexme/js-common-utils@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@aliexme/js-common-utils/-/js-common-utils-0.2.0.tgz#30e34bb0fdf3bde8fc44ffb84025cd3d27d04871"
+  integrity sha512-pPvqYvaLyyPwdHtIiEpYl+zAjJJIyA6IpROKCXyrn6BQtXfZ0zR1peO6aNUoTIlrPc03H4lrtfuFjt7CGz+hUw==
+
 typescript@^4.7.4:
   version "4.7.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.4.tgz#1a88596d1cf47d59507a1bcdfb5b9dfe4d488235"
