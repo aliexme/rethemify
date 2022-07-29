@@ -6,6 +6,7 @@
     "url": "git+https://github.com/aliexme/rethemify.git"
   },
   "scripts": {
+    "build": "yarn lerna run build",
     "ts:check": "yarn lerna run ts:check",
     "lint:check": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore ./ --cache",
     "lint:fix": "yarn lint:check --fix"
