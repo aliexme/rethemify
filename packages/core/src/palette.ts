@@ -15,6 +15,7 @@ interface ThemePaletteBase {
   backgroundPrimary: string
   backgroundSecondary: string
 
+  icon: string
   divider: string
 }
 
@@ -41,6 +42,7 @@ export const createThemePalette = (paletteOptions: ThemePaletteOptions = {}): Th
   const backgroundPrimaryColor = paletteOptions.backgroundPrimary ?? '#EEEEEE'
   const backgroundSecondaryColor = paletteOptions.backgroundSecondary ?? '#FFFFFF'
 
+  const iconColor = paletteOptions.icon ?? '#555555'
   const dividerColor = paletteOptions.divider ?? '#E0E0E0'
 
   return {
@@ -60,6 +62,7 @@ export const createThemePalette = (paletteOptions: ThemePaletteOptions = {}): Th
     backgroundPrimary: backgroundPrimaryColor,
     backgroundSecondary: backgroundSecondaryColor,
 
+    icon: iconColor,
     divider: dividerColor,
   }
 }
