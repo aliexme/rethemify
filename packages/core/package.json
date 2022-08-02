@@ -13,7 +13,8 @@
   "typings": "index.d.ts",
   "scripts": {
     "build": "tsc -p ./tsconfig.build.json",
-    "ts:check": "tsc --noEmit -p ./tsconfig.json"
+    "ts:check": "tsc --noEmit -p ./tsconfig.json",
+    "prepare": "yarn build"
   },
   "publishConfig": {
     "access": "public"
