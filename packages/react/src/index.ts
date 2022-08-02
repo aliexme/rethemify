@@ -1,2 +1,2 @@
-export { ThemeContext, useTheme } from './context'
+export { ThemeContext, useTheme, withTheme, type WithThemeProps } from './context'
 export { ThemeProvider, type ThemeProviderProps } from './ThemeProvider'
