@@ -8,8 +8,9 @@
   "command": {
     "version": {
       "allowBranch": ["main"],
+      "message": "chore(release): publish",
       "conventionalCommits": true,
-      "noPush": true
+      "createRelease": "github"
     }
   }
 }
