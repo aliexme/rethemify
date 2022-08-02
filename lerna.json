@@ -4,5 +4,12 @@
   ],
   "npmClient": "yarn",
   "useNx": true,
-  "version": "0.0.0"
+  "version": "independent",
+  "command": {
+    "version": {
+      "allowBranch": ["main"],
+      "conventionalCommits": true,
+      "noPush": true
+    }
+  }
 }
