@@ -1,6 +1,6 @@
 {
   "name": "@rethemify/react",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "React integration for rethemify",
   "private": false,
   "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
@@ -22,7 +22,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@rethemify/core": "^0.2.0",
+    "@rethemify/core": "^0.2.1",
     "@types/react": "^18.0.15",
     "typescript": "^4.7.4"
   },
