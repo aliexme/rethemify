@@ -13,7 +13,6 @@
       "createRelease": "github"
     },
     "publish": {
-      "registry": "https://registry.npmjs.org/",
       "allowBranch": ["main"],
       "message": "chore(release): publish",
       "conventionalCommits": true,
