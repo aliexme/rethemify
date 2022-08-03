@@ -1,0 +1,39 @@
+{
+  "name": "@rethemify/react-native",
+  "version": "0.0.0",
+  "description": "React Native integration for rethemify",
+  "private": false,
+  "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
+  "homepage": "https://github.com/aliexme/rethemify",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliexme/rethemify.git",
+    "directory": "packages/react-native"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.build.json",
+    "ts:check": "tsc --noEmit -p ./tsconfig.json",
+    "prepare": "yarn build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rethemify/core": "^0.2.1",
+    "@rethemify/react": "^0.3.0",
+    "@types/react": "^18.0.15",
+    "@types/react-native": "^0.69.5",
+    "react": "^18.2.0",
+    "react-native": "^0.69.3",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "@rethemify/core": "*",
+    "@rethemify/react": "*",
+    "react": ">=16.8.0",
+    "react-native": ">=0.59.0"
+  }
+}
