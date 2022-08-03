@@ -6,7 +6,8 @@
   "homepage": "https://github.com/aliexme/rethemify",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aliexme/rethemify.git"
+    "url": "https://github.com/aliexme/rethemify.git",
+    "directory": "packages/core"
   },
   "license": "MIT",
   "main": "index.js",

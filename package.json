@@ -3,7 +3,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aliexme/rethemify.git"
+    "url": "https://github.com/aliexme/rethemify.git"
   },
   "scripts": {
     "build": "yarn lerna run build",
