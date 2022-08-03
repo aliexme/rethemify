@@ -1,6 +1,7 @@
 {
   "name": "@rethemify/react",
   "version": "0.2.0",
+  "description": "React integration for rethemify",
   "private": false,
   "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
   "homepage": "https://github.com/aliexme/rethemify",
