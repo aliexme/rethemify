@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/aliexme/rethemify/compare/@rethemify/core@0.1.0...@rethemify/core@0.2.0) (2022-08-03)
+
+
+### Features
+
+* **core:** add theme spacing ([5379427](https://github.com/aliexme/rethemify/commit/537942773764743e63cdc888a2b7212276060175))
+
+
+
+
+
 # 0.1.0 (2022-08-02)
 
 

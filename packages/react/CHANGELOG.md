@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/aliexme/rethemify/compare/@rethemify/react@0.1.0...@rethemify/react@0.2.0) (2022-08-03)
+
+
+### Features
+
+* **react:** add withTheme HOC ([aed9624](https://github.com/aliexme/rethemify/commit/aed962407a0410455ce4e2f561f24b6d43d94019))
+
+
+
+
+
 # 0.1.0 (2022-08-02)
 
 
