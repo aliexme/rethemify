@@ -14,14 +14,14 @@
   "main": "index.js",
   "typings": "index.d.ts",
   "scripts": {
+    "prepare": "yarn build",
     "build": "tsc -p ./tsconfig.build.json",
-    "ts:check": "tsc --noEmit -p ./tsconfig.json",
-    "prepare": "yarn build"
+    "ts:check": "tsc --noEmit -p ./tsconfig.json"
   },
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
-    "typescript": "^4.7.4"
+    "typescript": "5.0.4"
   }
 }

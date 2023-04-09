@@ -2,6 +2,7 @@ interface ThemeSpacingBase {
   factor: number
 }
 
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface ThemeSpacingCustom {}
 
 export interface ThemeSpacing extends ThemeSpacingCustom, Omit<ThemeSpacingBase, keyof ThemeSpacingCustom> {

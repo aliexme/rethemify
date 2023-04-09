@@ -2,6 +2,7 @@ interface ThemeShapeBase {
   borderRadius: number
 }
 
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface ThemeShapeCustom {}
 
 export interface ThemeShape extends ThemeShapeCustom, Omit<ThemeShapeBase, keyof ThemeShapeCustom> {}

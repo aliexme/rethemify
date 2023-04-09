@@ -19,6 +19,7 @@ interface ThemePaletteBase {
   divider: string
 }
 
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface ThemePaletteCustom {}
 
 export interface ThemePalette extends ThemePaletteCustom, Omit<ThemePaletteBase, keyof ThemePaletteCustom> {}

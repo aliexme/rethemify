@@ -1,9 +1,9 @@
-import React, { useMemo } from 'react'
+import { type PropsWithChildren, useMemo } from 'react'
 import { type Theme } from '@rethemify/core'
 
 import { ThemeContext, useTheme } from './context'
 
-export type ThemeProviderProps = React.PropsWithChildren<{
+export type ThemeProviderProps = PropsWithChildren<{
   theme?: Theme | ((parentTheme: Theme) => Theme)
 }>
 
@@ -17,9 +17,5 @@ export const ThemeProvider: React.FC<ThemeProviderProps> = (props) => {
     return propTheme || parentTheme
   }, [propTheme, parentTheme])
 
-  return (
-    <ThemeContext.Provider value={theme}>
-      {children}
-    </ThemeContext.Provider>
-  )
+  return <ThemeContext.Provider value={theme}>{children}</ThemeContext.Provider>
 }

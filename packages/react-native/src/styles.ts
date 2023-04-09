@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 import { type Theme } from '@rethemify/core'
 import { useTheme } from '@rethemify/react'
 
-export const useThemeStyles = <T extends StyleSheet.NamedStyles<T> | StyleSheet.NamedStyles<any>>(
+export const useThemeStyles = <T extends StyleSheet.NamedStyles<T> | StyleSheet.NamedStyles<unknown>>(
   styles: T | StyleSheet.NamedStyles<T> | ((theme: Theme) => T | StyleSheet.NamedStyles<T>),
 ) => {
   const theme = useTheme()
@@ -19,7 +19,7 @@ export const useThemeStyles = <T extends StyleSheet.NamedStyles<T> | StyleSheet.
   return styleSheet
 }
 
-export const makeThemeStyles = <T extends StyleSheet.NamedStyles<T> | StyleSheet.NamedStyles<any>>(
+export const makeThemeStyles = <T extends StyleSheet.NamedStyles<T> | StyleSheet.NamedStyles<unknown>>(
   styles: T | StyleSheet.NamedStyles<T> | ((theme: Theme) => T | StyleSheet.NamedStyles<T>),
 ) => {
   return () => {

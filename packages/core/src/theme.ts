@@ -11,6 +11,7 @@ interface ThemeBase {
   select<T>(specifics: Record<string, T>): T | undefined
 }
 
+// eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface ThemeCustom {}
 
 export interface Theme extends ThemeCustom, Omit<ThemeBase, Exclude<keyof ThemeCustom, 'select'>> {}
