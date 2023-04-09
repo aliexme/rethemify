@@ -11,7 +11,7 @@ export interface ThemeSpacing extends ThemeSpacingCustom, Omit<ThemeSpacingBase,
 
 export type ThemeSpacingOptions = number
 
-export const createThemeSpacing = (spacingOptions: ThemeSpacingOptions = 8): ThemeSpacing => {
+export const createThemeSpacing = (spacingOptions: ThemeSpacingOptions = 4): ThemeSpacing => {
   const spacingFactor = spacingOptions
 
   const spacingFn = (value: number) => {
