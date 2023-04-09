@@ -1,6 +1,6 @@
 {
   "name": "@rethemify/core",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Core utilities for building themes",
   "private": false,
   "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
