@@ -1,6 +1,6 @@
 {
   "name": "@rethemify/react-native",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "React Native integration for rethemify",
   "private": false,
   "author": "Alexander Smirnov <al.smirnov996@gmail.com>",

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/aliexme/rethemify/compare/@rethemify/react-native@0.1.2...@rethemify/react-native@0.1.3) (2023-04-09)
+
+### Bug Fixes
+
+- **react-native:** styles typing ([f476a18](https://github.com/aliexme/rethemify/commit/f476a18af0cd73fc66a18f31394b958428918098))
+
 ## [0.1.2](https://github.com/aliexme/rethemify/compare/@rethemify/react-native@0.1.1...@rethemify/react-native@0.1.2) (2023-04-09)
 
 **Note:** Version bump only for package @rethemify/react-native
