@@ -1,6 +1,6 @@
 {
   "name": "@rethemify/react-native",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Native integration for rethemify",
   "private": false,
   "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
@@ -22,8 +22,8 @@
     "access": "public"
   },
   "devDependencies": {
-    "@rethemify/core": "0.2.1",
-    "@rethemify/react": "0.3.1",
+    "@rethemify/core": "^0.2.2",
+    "@rethemify/react": "^0.3.2",
     "@types/react": "18.0.33",
     "react": "18.2.0",
     "react-native": "0.71.6",
