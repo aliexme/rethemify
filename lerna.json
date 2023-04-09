@@ -16,7 +16,8 @@
       "allowBranch": ["main"],
       "message": "chore(release): publish",
       "conventionalCommits": true,
-      "createRelease": "github"
+      "createRelease": "github",
+      "registry": "https://registry.npmjs.org/"
     }
   }
 }
