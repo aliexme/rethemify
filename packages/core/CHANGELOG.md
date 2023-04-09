@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/aliexme/rethemify/compare/@rethemify/core@0.2.3...@rethemify/core@0.3.0) (2023-04-09)
+
+### Features
+
+- **core:** set default spacing value to 4 ([4025d02](https://github.com/aliexme/rethemify/commit/4025d02ec0f0cb2a34da4e366590a1fac6d89e4d))
+
 ## [0.2.2](https://github.com/aliexme/rethemify/compare/@rethemify/core@0.2.1...@rethemify/core@0.2.2) (2023-04-09)
 
 **Note:** Version bump only for package @rethemify/core
